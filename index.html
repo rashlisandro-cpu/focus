@@ -1,0 +1,296 @@
+from pathlib import Path
+import base64
+
+image_path = Path("/mnt/data/a_wide_modern_photorealistic_graphic_design_styl.png")
+output_path = Path("/mnt/data/fullfocuswebsite.html")
+
+with open(image_path, "rb") as f:
+    img_b64 = base64.b64encode(f.read()).decode("utf-8")
+
+article = """
+<h2>Introduction: Your Brain Isn’t Lazy—It’s Just Under Attack</h2>
+
+<p>You sit down to work for five minutes, then suddenly you’re watching random videos, replying to messages, checking notifications, and somehow researching a topic you didn’t even care about ten minutes ago. Sound familiar? Yeah, welcome to the modern attention span circus.</p>
+
+<p>I struggled with focus for a long time. I’d open my laptop to study or work, then end up doing everything except the actual task. One notification turned into twenty minutes of scrolling. One “quick break” became a full Netflix episode. Funny how the brain works, right?</p>
+
+<p>That’s why learning <strong>how to focus and avoid distractions</strong> matters so much. Focus helps you finish things faster, think clearly, and stop feeling mentally exhausted all the time. And honestly, life feels less chaotic when your attention stops running around like a confused chicken.</p>
+
+<p>So let’s talk about practical ways to improve focus without pretending you need to become a monk living in the mountains.</p>
+
+<h2>Why Distractions Feel So Powerful</h2>
+
+<h3>Your brain loves easy entertainment</h3>
+
+<p>Let’s start with the obvious truth: distractions feel good.</p>
+
+<p>Social media apps, videos, notifications, and random internet rabbit holes give your brain quick rewards. They require almost zero effort. Your brain sees easy pleasure and immediately says, “Yes, let’s do that instead.”</p>
+
+<p>Ever wondered why studying for 30 minutes feels harder than scrolling for two hours? Your brain prefers comfort over effort. Simple.</p>
+
+<h3>Technology trains you to lose focus</h3>
+
+<p>Phones constantly compete for your attention. Every app wants clicks, views, and screen time. Notifications interrupt your thoughts before you even realize what happened.</p>
+
+<p>Honestly, some apps behave like needy toddlers. “Look at me. Tap me. Open me again.” Exhausting.</p>
+
+<p>And the scary part? Most people don’t notice how much this destroys concentration until they actually try focusing for one uninterrupted hour.</p>
+
+<h3>Multitasking destroys productivity</h3>
+
+<p>People love bragging about multitasking, but let’s be honest—it rarely works.</p>
+
+<p>When you switch between tasks constantly, your brain loses momentum. You waste energy trying to refocus every few minutes.</p>
+
+<ul>
+<li>Replying to messages while studying</li>
+<li>Watching videos during work</li>
+<li>Switching tabs every two minutes</li>
+<li>Checking notifications “quickly”</li>
+</ul>
+
+<p>That “quick check” always turns into fifteen minutes somehow.</p>
+
+<h2>How to Train Your Brain to Focus Again</h2>
+
+<h3>Start with one task at a time</h3>
+
+<p>Your brain performs better when you focus on one thing fully.</p>
+
+<p>When I started studying with only one tab open, my concentration improved almost immediately. Before that, I kept fifty tabs open like I was running a NASA control room.</p>
+
+<p>Try this instead:</p>
+
+<ol>
+<li>Pick one task</li>
+<li>Set a time limit</li>
+<li>Focus only on that task</li>
+<li>Ignore everything else until time ends</li>
+</ol>
+
+<p>Simple systems work better than complicated productivity hacks.</p>
+
+<h3>Use time blocks for better concentration</h3>
+
+<p>One of the best focus techniques involves working in blocks of time.</p>
+
+<ul>
+<li>Work for 25–50 minutes</li>
+<li>Take a short 5–10 minute break</li>
+<li>Repeat the cycle</li>
+</ul>
+
+<p>This method keeps your brain fresh without overwhelming it.</p>
+
+<h3>Train focus like a muscle</h3>
+
+<p>Focus works like strength training. The more you practice it, the stronger it becomes.</p>
+
+<p>At first, even ten minutes of uninterrupted work feels difficult. That’s normal.</p>
+
+<p>But if you practice daily, your attention span improves gradually. Consistency matters more than intensity here.</p>
+
+<h2>The Biggest Distractions You Need to Control</h2>
+
+<h3>Your phone is probably the main problem</h3>
+
+<p>Let’s not pretend otherwise. Most distractions live inside that little rectangle in your pocket.</p>
+
+<p>If your phone constantly sits beside you, your brain stays alert for interruptions. Even silent notifications affect concentration.</p>
+
+<p>Here’s what helped me personally:</p>
+
+<ul>
+<li>Turning off unnecessary notifications</li>
+<li>Keeping the phone out of reach</li>
+<li>Using focus mode during work</li>
+<li>Logging out of distracting apps</li>
+</ul>
+
+<p>Suddenly, my brain stopped expecting interruptions every thirty seconds.</p>
+
+<h3>Social media steals more time than you think</h3>
+
+<p>Social media works like mental fast food. Quick entertainment feels satisfying in the moment, but too much leaves your brain scattered.</p>
+
+<p>I once opened an app “for two minutes” and somehow ended up watching videos about penguins stealing fish. I still don’t know how I got there.</p>
+
+<p>Try these limits:</p>
+
+<ul>
+<li>Check social media only at specific times</li>
+<li>Remove addictive apps during work hours</li>
+<li>Avoid scrolling immediately after waking up</li>
+</ul>
+
+<h3>Noise and messy environments affect focus</h3>
+
+<p>Your environment matters more than people realize.</p>
+
+<p>A noisy or cluttered space constantly competes for your attention. Your brain processes every distraction even when you think you’re ignoring it.</p>
+
+<ul>
+<li>Good lighting</li>
+<li>Less clutter</li>
+<li>Comfortable seating</li>
+<li>Minimal unnecessary noise</li>
+</ul>
+
+<p>Small environmental changes create huge mental benefits.</p>
+
+<h2>Practical Habits That Improve Focus Daily</h2>
+
+<h3>Create a simple daily routine</h3>
+
+<p>Routines reduce mental chaos.</p>
+
+<p>When you follow consistent habits, your brain wastes less energy deciding what to do next.</p>
+
+<ul>
+<li>Wake up at a consistent time</li>
+<li>Plan your priorities early</li>
+<li>Handle difficult tasks first</li>
+<li>Schedule breaks intentionally</li>
+</ul>
+
+<h3>Get enough sleep</h3>
+
+<p>Lack of sleep destroys concentration fast.</p>
+
+<p>You can drink all the coffee you want, but your brain still struggles when you barely rest.</p>
+
+<h3>Exercise improves mental clarity</h3>
+
+<p>Movement helps your brain function better.</p>
+
+<ul>
+<li>Walking</li>
+<li>Stretching</li>
+<li>Light workouts</li>
+<li>Outdoor movement</li>
+</ul>
+
+<h3>Eat foods that support concentration</h3>
+
+<p>Your energy affects your focus more than you think.</p>
+
+<p>I noticed better concentration when I stopped relying on random snacks during study sessions. Turns out chips and soda don’t exactly create peak mental performance.</p>
+
+<h2>Mental Tricks That Help You Stay Focused</h2>
+
+<h3>Use the “just start” method</h3>
+
+<p>Starting usually feels harder than continuing.</p>
+
+<p>Whenever you avoid a task, tell yourself: “I’ll do this for just five minutes.”</p>
+
+<h3>Visualize the finished result</h3>
+
+<p>Think about how good completion feels.</p>
+
+<p>Whether you’re studying, working, or building a project, imagining the final result creates motivation.</p>
+
+<h3>Stop chasing perfection</h3>
+
+<p>Perfectionism creates procrastination.</p>
+
+<p>Done beats perfect every single time.</p>
+
+<h2>How Discipline Helps You Avoid Distractions</h2>
+
+<p>Motivation changes daily. Discipline creates consistency.</p>
+
+<ul>
+<li>Stick to routines</li>
+<li>Ignore temporary urges</li>
+<li>Complete important tasks</li>
+<li>Build stronger habits</li>
+</ul>
+
+<p>Disciplined people don’t always feel motivated. They just act anyway.</p>
+
+<h2>The Real Secret to Long-Term Focus</h2>
+
+<p>Most people search for magical productivity hacks. But the real answer stays surprisingly simple.</p>
+
+<p><strong>Protect your attention.</strong></p>
+
+<ul>
+<li>Limit distractions</li>
+<li>Build routines</li>
+<li>Train concentration daily</li>
+<li>Manage technology wisely</li>
+<li>Prioritize important tasks</li>
+</ul>
+
+<p>Focus improves gradually through repeated effort.</p>
+
+<h2>Conclusion: Take Back Control of Your Attention</h2>
+
+<p>Learning <strong>how to focus and avoid distractions</strong> changes more than productivity. It changes how you experience daily life.</p>
+
+<p>You think more clearly. You finish tasks faster. You feel less mentally overwhelmed.</p>
+
+<p>The biggest lesson I learned? Focus isn’t something you “find.” You build it through habits, discipline, and intentional choices.</p>
+
+<p>So start small. Work on one task at a time. Protect your attention like it actually matters—because it does.</p>
+"""
+
+html = f"""
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>HOW TO FOCUS AND AVOID DISTRACTIONS</title>
+<style>
+body {{
+font-family: Arial, sans-serif;
+background:#f4f4f4;
+margin:0;
+padding:0;
+color:#222;
+}}
+.container {{
+max-width:1000px;
+margin:auto;
+background:white;
+padding:40px;
+}}
+h1 {{
+font-size:46px;
+text-align:center;
+margin-bottom:20px;
+}}
+h2 {{
+margin-top:40px;
+font-size:32px;
+}}
+h3 {{
+margin-top:25px;
+font-size:24px;
+}}
+p, li {{
+font-size:18px;
+line-height:1.9;
+}}
+.hero {{
+width:100%;
+border-radius:14px;
+margin-bottom:30px;
+}}
+</style>
+</head>
+<body>
+<div class="container">
+<h1>HOW TO FOCUS AND AVOID DISTRACTIONS</h1>
+<img class="hero" src="data:image/png;base64,{img_b64}">
+{article}
+</div>
+</body>
+</html>
+"""
+
+output_path.write_text(html, encoding="utf-8")
+
+print(output_path)
